@@ -5303,6 +5303,7 @@ a.aximo-service-icon:hover {
 .aximo-faq-wrap {
 	padding: 130px 0;
 	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
 }
 @media (max-width: 991px) {
 	.aximo-faq-wrap {

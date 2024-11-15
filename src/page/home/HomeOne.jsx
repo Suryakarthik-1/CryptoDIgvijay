@@ -14,35 +14,43 @@ import Team3Img from "../../assets/images/team/team3.png";
 import Team4Img from "../../assets/images/team/team4.png";
 
 const servicesData = [
-	{
-		id: crypto.randomUUID(),
-		title: "UI/UX Design",
-		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
-		icon: "icon-design-tools",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Graphic Design",
-		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
-		icon: "icon-branding",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Web Design",
-		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
-		icon: "icon-web",
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Motion Graphics",
-		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
-		icon: "icon-design-thinking",
-	},
-];
+  {
+    id: crypto.randomUUID(),
+    title: 'CRYPTO 200% EARNING',
+    description:
+      'Want to achieve 200% gains in crypto?  We provide the knowledge, strategies, and community support to make it happen – completely free! Subscribe now and start your crypto journey!',
+    icon: 'icon-design-tools',
+    link: 'https://www.youtube.com/@CRYPTO200EARNING',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Crypto Digvijay',
+    description:
+      'Crypto Digvijay is your trusted source for reliable crypto information. We provide in-depth analysis and expert commentary on the ever-changing world of digital currencies.',
+    icon: 'icon-branding',
+    link: 'https://www.youtube.com/@crypto_digvijay3343',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Crypto - Aajkal',
+    description:
+      'Your daily dose of crypto news and updates. Stay informed with Crypto - Aajkal.',
+    icon: 'icon-web',
+    link: 'https://www.youtube.com/@crypto-aajkal',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Telegram Channel',
+    description:
+      ' Dont miss out on the hottest crypto opportunities! 🔥 Join our exclusive Telegram channel for market-moving insights, winning strategies, and a community of like-minded traders.',
+    icon: 'icon-design-thinking',
+    link: 'https://t.me/Crypto200Earning',
+  },
+]
+
+
+// Team data change
+
 
 const teamsData = [
 	{
@@ -77,7 +85,6 @@ function HomeOne() {
 			<Hero />
 			<Services services={servicesData} />
 			<About />
-			<Projects />
 			<WhyChooseUs />
 			<Testimonial />
 			<AutoSlider />

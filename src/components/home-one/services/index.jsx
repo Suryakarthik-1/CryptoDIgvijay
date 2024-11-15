@@ -10,7 +10,7 @@ function Services({ services }) {
 					<h2>
 						We provide effective
 						<span className="aximo-title-animation">
-							design solutions
+							crypto solutions
 							<span className="aximo-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
