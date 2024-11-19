@@ -55,7 +55,7 @@ const servicesData = [
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
+		name: "Surya Karthik",
 		designation: "Creative Director",
 		img: Team1Img,
 	},
