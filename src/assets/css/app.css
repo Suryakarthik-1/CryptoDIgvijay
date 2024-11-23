@@ -2136,6 +2136,16 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	border-top: 1px solid rgba(11, 16, 64, 0.1);
 }
 
+.heroimagemainpagetop{
+	max-width: 495px;
+	max-height: 580px;
+}
+
+#contactinformationdata{
+	align-items: center;
+	justify-content: center;
+}
+
 .footerlogosizeset{
 	max-width: 9%;
 }

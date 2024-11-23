@@ -1,7 +1,5 @@
 import { useForm } from "react-hook-form";
-import ContactThumb from "../../assets/images/contact/contact-thumb.png";
 import Star2Img from "../../assets/images/v1/star2.png";
-import FadeInRight from "../animation/FadeInRight";
 import Field from "../common/Field";
 function ContactForm() {
 	const {
@@ -33,9 +31,9 @@ function ContactForm() {
 
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
-						<FadeInRight className="aximo-contact-thumb ">
+						{/* <FadeInRight className="aximo-contact-thumb ">
 							<img src={ContactThumb} alt="Contact Thumb" />
-						</FadeInRight>
+						</FadeInRight> */}
 					</div>
 					<div className="col-lg-7">
 						<div className="aximo-main-form">

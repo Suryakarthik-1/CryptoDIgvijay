@@ -36,7 +36,7 @@ const faqData = {
 		},
 	],
 };
-function TwoColumnFaq() {
+function 	TwoColumnFaq() {
 	return (
 		<div className="section aximo-section-padding">
 			<div className="container">
