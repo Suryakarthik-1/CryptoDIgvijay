@@ -11,7 +11,7 @@ import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
-import Pricing from "../page/Pricing";
+// import Pricing from "../page/Pricing";
 // import Reset from "../page/auth/ResetPassword.jsx";
 // import SignIn from "../page/auth/SignIn";
 // import SignUp from "../page/auth/SignUp";
@@ -28,8 +28,8 @@ import HomeOne from "../page/home/HomeOne.jsx";
 // import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 // import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
 // import SinglePortfolio from "../page/portfolio/SinglePortfolio";
-import Service from "../page/service";
-import SingleService from "../page/service/SingleService.jsx";
+// import Service from "../page/service";
+// import SingleService from "../page/service/SingleService.jsx";
 import Team from "../page/team";
 import SingleTeam from "../page/team/SingleTeam.jsx";
 // import CommingSoon from "../page/utility/CommingSoon.jsx";
@@ -67,10 +67,10 @@ export const router = createBrowserRouter([
 						element: <TestimonialPage />,
 					},
 
-					{
-						path: "/pricing",
-						element: <Pricing />,
-					},
+					// {
+					// 	path: "/pricing",
+					// 	element: <Pricing />,
+					// },
 					// {
 					// 	path: "/blog",
 					// 	element: <BlogPage />,
@@ -83,14 +83,14 @@ export const router = createBrowserRouter([
 					// 	path: "/blog-grid",
 					// 	element: <BlogGridPage />,
 					// },
-					{
-						path: "/service",
-						element: <Service />,
-					},
-					{
-						path: "/single-service",
-						element: <SingleService />,
-					},
+					// {
+					// 	path: "/service",
+					// 	element: <Service />,
+					// },
+					// {
+					// 	path: "/single-service",
+					// 	element: <SingleService />,
+					// },
 					{
 						path: "/team",
 						element: <Team />,

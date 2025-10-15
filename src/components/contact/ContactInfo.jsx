@@ -17,7 +17,7 @@ function ContactInfo() {
             </span>
           </h2>
         </div>
-        <FadeInStaggerTwo className="row">
+        <FadeInStaggerTwo className="row" id="contactinformationdatakjf">
           {/* <FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
@@ -37,8 +37,8 @@ function ContactInfo() {
               </div>
               <div className="aximo-contact-info-data">
                 <span>Email us</span>
-                <p>example@gmail.com</p>
-                <p>example@gmail.com</p>
+                <p>hello@cryptodigvijay.com</p>
+                <p>hello@cryptodigvijay.com</p>
               </div>
             </div>
           </FadeInStaggerTwoChildren>

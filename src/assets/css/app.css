@@ -1984,6 +1984,23 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 	position: relative;
 }
 
+#contactinformationdatakjf{
+	justify-content: center;
+}
+
+.status-message {
+  margin-top: 10px;
+  color: green; /* Change to red for error messages dynamically if needed */
+  font-size: 14px;
+}
+
+.status-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green; /* Or red for error messages */
+}
+
+
 .aximo-sidemenu-column {
 	width: 485px;
 	display: block;

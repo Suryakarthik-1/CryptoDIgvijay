@@ -22,9 +22,9 @@ function FooterContent() {
           <ul>
             <li>Send us an email:</li>
             <li>
-              <a href="mailto:hello@cryptodigvijay.com
-">hello@cryptodigvijay.com
-</a>
+              <a href="mailto:hello@cryptodigvijay.com">
+                hello@cryptodigvijay.com
+              </a>
             </li>
           </ul>
         </div>
