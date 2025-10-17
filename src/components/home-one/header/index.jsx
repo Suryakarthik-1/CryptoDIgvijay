@@ -22,6 +22,8 @@ function Header() {
               <NavItem url="/">Promotions</NavItem>
               <NavItem url="about-us">About Us</NavItem>
               <NavItem url="team">Team</NavItem>
+              <NavItem url="updates">Updates</NavItem>
+              <NavItem url="video">Latest Videos 🔥</NavItem>
               {/* <NavItem dropdown title="Pages"> */}
                 <Dropdown>
                   {/* <DropdownItem url="about-us">About Us</DropdownItem> */}

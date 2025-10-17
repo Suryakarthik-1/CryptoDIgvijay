@@ -11,6 +11,8 @@ import Layout from "../components/layout/index.jsx";
 import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
+import Updates from "../page/updates";
+import Video from "../page/video";
 // import Pricing from "../page/Pricing";
 // import Reset from "../page/auth/ResetPassword.jsx";
 // import SignIn from "../page/auth/SignIn";
@@ -57,6 +59,14 @@ export const router = createBrowserRouter([
 						path: "/contact-us",
 						element: <ContactUs />,
 					},
+                    {
+                        path: "/updates",
+                        element: <Updates />,
+                    },
+                    {
+                        path: "/video",
+                        element: <Video />,
+                    },
 					{
 						path: "/faq",
 						element: <Faq />,

@@ -174,6 +174,14 @@ export const menuItemsData = [
   // 	],
   // },
   {
+    title: 'Updates',
+    url: 'updates',
+  },
+  {
+    title: 'Latest Videos 🔥',
+    url: 'video',
+  },
+  {
     title: 'Contact Us',
     url: 'contact-us',
   },
