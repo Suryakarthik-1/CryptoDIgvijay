@@ -2,26 +2,37 @@ import Blog1Img from "../../assets/images/blog/blog1.png";
 import Blog2Img from "../../assets/images/blog/blog2.png";
 import Blog3Img from "../../assets/images/blog/blog3.png";
 import { Link } from "react-router-dom";
+
 const recentPostData = [
 	{
 		id: crypto.randomUUID(),
-		title: "7 businesses for easy money",
-		date: "June 18, 2024",
+		title: "Understanding Bitcoin: A Beginner's Guide to Cryptocurrency Investment",
+		content:
+			"Discover the fundamentals of Bitcoin and how to start your cryptocurrency investment journey. Learn about blockchain technology and secure trading practices.",
+		category: "Crypto",
+		date: "March 15, 2025",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "My 3 tips for business ideas",
-		date: "June 18, 2024",
+		title: "The Impact of DeFi on Traditional Banking Systems",
+		content:
+			"Exploring how decentralized finance is revolutionizing financial services and creating new opportunities in the cryptocurrency market.",
+		category: "Crypto",
+		date: "July 22, 2025",
 		img: Blog2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "12 Halloween costume ideas",
-		date: "June 18, 2024",
+		title: "NFTs and Digital Asset Evolution in the Crypto Space",
+		content:
+			"An in-depth look at how NFTs are transforming digital ownership and creating new possibilities in the cryptocurrency ecosystem.",
+		category: "Crypto",
+		date: "October 5, 2025",
 		img: Blog3Img,
 	},
 ];
+
 function RecentPosts() {
 	return (
 		<div className="widget aximo_recent_posts_Widget">

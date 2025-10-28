@@ -15,79 +15,79 @@ import Team8Img from "../../assets/images/team/team8.png";
 import Team9Img from "../../assets/images/team/team9.png";
 
 const teamsData = [
-	{
-		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
-		img: Team1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "William Jack",
-		designation: "Creative Director",
-		img: Team5Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Alex Tom",
-		designation: "UI/UX Designer",
-		img: Team6Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Robin Lesser",
-		designation: "Chief Executive Officer",
-		img: Team7Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Sheikh David",
-		designation: "HR Director",
-		img: Team8Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Mark Strew",
-		designation: "UI Designer",
-		img: Team9Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Fradik Hazbag",
-		designation: "Researcher",
-		img: Team10Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Sam Kainiz",
-		designation: "Lead Developer",
-		img: Team11Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Mac Jackson",
-		designation: "Marketing Expert",
-		img: Team12Img,
-	},
-];
+  {
+    id: crypto.randomUUID(),
+    name: 'Digvijay Singh Choudhari',
+    designation: 'Founder & CEO',
+    img: Team1Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'G Surya Karthik',
+    designation: 'Youtube Manager, Premium Manager',
+    img: Team3Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Harsh Bansal',
+    designation: 'Marketing manager',
+    img: Team2Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Rekha',
+    designation: 'Thumbnail Designer + Editor',
+    img: Team4Img,
+  },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'William Jack',
+  //     designation: 'Creative Director',
+  //     img: Team5Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Alex Tom',
+  //     designation: 'UI/UX Designer',
+  //     img: Team6Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Robin Lesser',
+  //     designation: 'Chief Executive Officer',
+  //     img: Team7Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Sheikh David',
+  //     designation: 'HR Director',
+  //     img: Team8Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Mark Strew',
+  //     designation: 'UI Designer',
+  //     img: Team9Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Fradik Hazbag',
+  //     designation: 'Researcher',
+  //     img: Team10Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Sam Kainiz',
+  //     designation: 'Lead Developer',
+  //     img: Team11Img,
+  //   },
+  //   {
+  //     id: crypto.randomUUID(),
+  //     name: 'Mac Jackson',
+  //     designation: 'Marketing Expert',
+  //     img: Team12Img,
+  //   },
+]
 function Team() {
 	return (
 		<>

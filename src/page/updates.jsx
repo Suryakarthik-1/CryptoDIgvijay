@@ -1,7 +1,7 @@
-import GridBlog from "../components/blog/grid-blog/index";
+import Blog from "../components/blog/index";
 
 function Updates() {
-	return <GridBlog />;
+	return <Blog />;
 }
 
 export default Updates;

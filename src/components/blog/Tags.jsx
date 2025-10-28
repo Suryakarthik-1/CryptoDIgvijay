@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const tagsData = ["Instagram", "X", "Telegram"];
+const tagsData = ["Marketing", "Business", "Solutions", "Studio", "Brand"];
 function Tags() {
 	return (
 		<div className="widget">

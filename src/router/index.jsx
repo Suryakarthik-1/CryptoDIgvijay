@@ -19,7 +19,7 @@ import Video from "../page/video";
 // import SignUp from "../page/auth/SignUp";
 // import BlogGridPage from "../page/blog/BlogGridPage.jsx";
 // import BlogPage from "../page/blog/BlogPage.jsx";
-// import SingleBlogPage from "../page/blog/SingleBlog.jsx";
+import SingleBlogPage from "../page/blog/SingleBlog.jsx";
 // import HomeFive from "../page/home/HomeFive.jsx";
 // import HomeFour from "../page/home/HomeFour.jsx";
 import HomeOne from "../page/home/HomeOne.jsx";
@@ -85,10 +85,10 @@ export const router = createBrowserRouter([
 					// 	path: "/blog",
 					// 	element: <BlogPage />,
 					// },
-					// {
-					// 	path: "/single-blog",
-					// 	element: <SingleBlogPage />,
-					// },
+					{
+						path: "/single-blog",
+						element: <SingleBlogPage />,
+					},
 					// {
 					// 	path: "/blog-grid",
 					// 	element: <BlogGridPage />,

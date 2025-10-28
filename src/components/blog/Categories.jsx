@@ -5,9 +5,9 @@ function Categories() {
 			<h3 className="wp-block-heading">Categories:</h3>
 			<ul>
 				<li>
-					<Link to="/">Business</Link>
+					<Link to="/">Crypto</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link to="/">Development</Link>
 				</li>
 				<li>
@@ -18,7 +18,7 @@ function Categories() {
 				</li>
 				<li>
 					<Link to="/">Uncategorized</Link>
-				</li>
+				</li> */}
 			</ul>
 		</div>
 	);

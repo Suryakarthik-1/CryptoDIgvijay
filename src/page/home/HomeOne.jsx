@@ -53,31 +53,31 @@ const servicesData = [
 
 
 const teamsData = [
-	{
-		id: crypto.randomUUID(),
-		name: "Surya Karthik",
-		designation: "Creative Director",
-		img: Team1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
-		img: Team2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
-		img: Team3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
-		img: Team4Img,
-	},
-];
+  {
+    id: crypto.randomUUID(),
+    name: 'Digvijay Singh Choudhari',
+    designation: 'Founder & CEO',
+    img: Team1Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Harsh Bansal',
+    designation: 'Marketing manager',
+    img: Team2Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'G Surya Karthik',
+    designation: 'Youtube Manager, Premium Manager',
+    img: Team3Img,
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Rekha',
+    designation: 'Thumbnail Designer + Editor',
+    img: Team4Img,
+  },
+]
 
 function HomeOne() {
 	return (

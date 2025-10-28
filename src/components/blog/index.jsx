@@ -13,29 +13,29 @@ import Navigation from "./Navigation";
 const blogData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Learn these five high-income skills to build your one-person business and get rich",
+		title: "Understanding Bitcoin: A Beginner's Guide to Cryptocurrency Investment",
 		content:
-			"As a first-generation immigrant, money and networks weren’t given to me. So instead of going through the front door, I tried a back door approach",
-		category: "Marketing",
-		date: "June 18, 2024",
+			"Discover the fundamentals of Bitcoin and how to start your cryptocurrency investment journey. Learn about blockchain technology and secure trading practices.",
+		category: "Crypto",
+		date: "March 15, 2025",
 		img: Blog1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "I run a $10,000/month business with 0 employees, here's how I use AI tools",
+		title: "The Impact of DeFi on Traditional Banking Systems",
 		content:
-			"Making more money with the help of AI tools. — Up until now, I’ve shared two posts discussing the AI tools I’ve incorporated into my",
-		category: "Business",
-		date: "June 18, 2024",
+			"Exploring how decentralized finance is revolutionizing financial services and creating new opportunities in the cryptocurrency market.",
+		category: "Crypto",
+		date: "July 22, 2025",
 		img: Blog2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Technical loan, product loan or business loan: different types and how to deal withit",
+		title: "NFTs and Digital Asset Evolution in the Crypto Space",
 		content:
-			"Tech debt part two — a deeper dive into product and business debt and the ripple effect on organizations — in part one",
-		category: "Technology",
-		date: "June 18, 2024",
+			"An in-depth look at how NFTs are transforming digital ownership and creating new possibilities in the cryptocurrency ecosystem.",
+		category: "Crypto",
+		date: "October 5, 2025",
 		img: Blog3Img,
 	},
 ];
