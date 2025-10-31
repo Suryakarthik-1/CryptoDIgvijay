@@ -13,7 +13,7 @@ import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import Updates from "../page/updates";
 import Video from "../page/video";
-// import Pricing from "../page/Pricing";
+import Pricing from "../page/Pricing";
 // import Reset from "../page/auth/ResetPassword.jsx";
 // import SignIn from "../page/auth/SignIn";
 // import SignUp from "../page/auth/SignUp";
@@ -77,10 +77,10 @@ export const router = createBrowserRouter([
 						element: <TestimonialPage />,
 					},
 
-					// {
-					// 	path: "/pricing",
-					// 	element: <Pricing />,
-					// },
+					{
+						path: "/pricing",
+						element: <Pricing />,
+					},
 					// {
 					// 	path: "/blog",
 					// 	element: <BlogPage />,

@@ -45,10 +45,10 @@ export const menuItemsData = [
   // 			title: "About Us",
   // 			url: "about-us",
   // 		},
-  // 		{
-  // 			title: "Pricing",
-  // 			url: "pricing",
-  // 		},
+  		{
+  			title: "Premium",
+  			url: "pricing",
+  		},
   // 		{
   // 			title: "Blog",
   // 			url: "#",

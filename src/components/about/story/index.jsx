@@ -6,7 +6,7 @@ function Story() {
 		<div className="section aximo-section-padding6">
 			<div className="container">
 				<div className="aximo-section-title center title-description">
-					<h2>
+					{/* <h2>
 						<span className="aximo-title-animation">
 							We think our story is
 							<span className="aximo-title-icon">
@@ -14,18 +14,18 @@ function Story() {
 							</span>
 						</span>
 						worth sharing with you
-					</h2>
-					<p>
+					</h2> */}
+					{/* <p>
 						Established in 2008, we began as a small but ambitious team. We understood the importance of
 						creative and tech-savvy solutions to help businesses succeed in the ever-changing digital
 						landscape.
-					</p>
+					</p> */}
 				</div>
 
-				<StoryPhotos />
+				{/* <StoryPhotos /> */}
 
 				<div className="aximo-story-content">
-					<StoryContent />
+					{/* <StoryContent /> */}
 				</div>
 			</div>
 		</div>
