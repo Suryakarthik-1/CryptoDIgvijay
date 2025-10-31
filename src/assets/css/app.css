@@ -8039,7 +8039,7 @@ img.swipeimage {
   object-fit: cover;
   z-index: 9;
   opacity: 0;
-  visibily: hidden;
+  /* visibily: hidden;	 */
   pointer-events: none;
   border-radius: 7px;
   border: 5px solid #fff;
@@ -8253,7 +8253,7 @@ a.forgot-password {
 }
 .aximo-account-checkbox label:before {
   content: '';
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   background-color: transparent;
   border: 1.5px solid #7f8995;
   padding: 7px;
