@@ -7,8 +7,8 @@ function Pricing() {
 	return (
 		<>
 			<BreadCrumb title="Premium" />
-			<PricingPlan />
-			<Testimonial />
+			{/* <PricingPlan /> */}
+			{/* <Testimonial /> */}
 			<AutoSlider />
 			<PricingFaq />
 		</>
